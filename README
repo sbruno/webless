@@ -1,10 +1,9 @@
-you need tubes in this directory for webless to work (http://github.com/marianoguerra/tubes)
+webless needs tubes to work ( http://github.com/marianoguerra/tubes )
+it is included as a git submodule in /tubes
 
 a simple example:
 
 * get webless from github
-* get tubes from github and put the tubes dir inside the webless dir
-   (webless/tubes)
 * you will need the bindings for webkit in gtk to make this work
    (aptitude install python-webkit on ubuntu)
 * cd webless

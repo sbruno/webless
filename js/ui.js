@@ -41,7 +41,6 @@ ui.doRequest = function (action, okCb, errorCb) {
 
 ui.putResponseIn = function (id) {
     return function (response) {
-        console.log(response);
         $('#' + id).html(response);
     };
 };

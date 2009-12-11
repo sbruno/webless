@@ -4,9 +4,11 @@ it is included as a git submodule in /tubes
 a simple example:
 
 * get webless from github
+* cd webless
+* in the webless directory, get the tubes submodule:
+   (git submodule init; git submodule update)
 * you will need the bindings for webkit in gtk to make this work
    (aptitude install python-webkit on ubuntu)
-* cd webless
 * python server.py
 * firefox http://0.0.0.0:8000
 * put www.google.com/search?q=sublime on the url field
